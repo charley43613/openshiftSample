@@ -1,6 +1,6 @@
 FROM tomcat:latest
 
-ADD ericsimple.war /usr/local/tomcat/webapps/
+ADD HelloSpringBoot-0.0.1-SNAPSHOT.war /usr/local/tomcat/webapps/
 
-EXPOSE 8080
+EXPOSE 8089
 CMD ["catalina.sh", "run"]
